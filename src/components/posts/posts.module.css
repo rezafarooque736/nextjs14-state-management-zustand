@@ -1,0 +1,77 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.textarea {
+  padding: 10px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #03a338;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+}
+
+.heading {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.post {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  width: 100px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
